@@ -2,6 +2,7 @@
 #v0.3.1
 #features to add: 
 ##detect and stop services envoking any processes touching nvidia driver units. (is that wording right?) 
+##at least catch if lightdm is running or not. don't kill it unless necessary. that's embarassing. 
 ##requirements for specific OS version? 
 #this thing is mostly comments, isn't it... 
 ##for testing, watch lsof /dev/nvidia* 
